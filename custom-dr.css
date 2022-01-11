@@ -1,0 +1,76 @@
+/*Custom Code  to give Info Blocks box shadows*/
+.crm-summary-block {
+   margin-bottom: 20px;
+   border-radius: 2px;
+   background: #fff;
+   box-shadow: 0 3px 18px 0 rgb(48, 40, 40, 0.25);
+ }
+
+ #crm-container div.crm-summary-row {
+   background: #fff !important;
+ }
+
+ #crm-container div.crm-summary-row div.crm-label {
+   background-color: #fff;
+   color: #464354;
+   font-family: 'Open Sans';
+   font-size: 13px;
+   font-weight: 600;
+ }
+
+ #crm-container div.crm-summary-row div.crm-content {
+   font-family: 'Open Sans';
+   font-size: 13px;
+ }
+
+ .crm-container div.crm-clear {
+   background-color: #fff;
+ }
+ /*End*/
+
+ #crm-container .crm-actions-ribbon li.crm-delete-action {
+   margin-left: 0;
+ }
+
+ #crm-container .crm-actions-ribbon li {
+   float: none;
+   margin: 0 8px 0 0 !important;
+ }
+
+ /*Anpassungen Contact Name Block*/
+ #crm-container div.crm-summary-display_name {
+   padding-bottom: 0;
+   margin-top: 20px;
+ }
+
+div#contactname-block.crm-summary-block {
+   box-shadow: none !important;
+ }
+
+#crm-container div.crm-summary-display_name {
+  font-size: 27px;
+}
+
+ /*Custom Contact Search Code*/
+ .ui-widget.crm-quickSearch-results {
+ 	padding: 15px 0 !important
+ }
+
+ ul#ui-id-22.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front.crm-quickSearch-results {
+ 	width: 299px !important;
+ }
+
+ div.ui-menu-item-uiMenuItemWrapper > a {
+ 	text-decoration: none;
+ 	padding: 9px;
+ }
+
+ div.ui-menu-item-uiMenuItemWrapper > a:hover {
+ 	background-color: #e5eaea !important;
+ }
+/*Custom Contact Search Code End*/
+
+/*Omit "Layout" Button on Contact Page*/
+.crm-actions-ribbon #actions a.crm-hover-button {
+  display: none;
+}
