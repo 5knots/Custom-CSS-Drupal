@@ -74,3 +74,23 @@ div#contactname-block.crm-summary-block {
 .crm-actions-ribbon #actions a.crm-hover-button {
   display: none;
 }
+
+/*"Contacts" --> "Manage Groups" Dropdown Arrows Custom Code*/
+#crm-container .crm-group-parent td.crm-group-name {
+  text-indent: unset !important;
+}
+
+#crm-container td span.show-children,
+#crm-container td span.crm-no-children {
+  padding-left: 5px;
+}
+
+th.crm-group-count.sorting {
+  width: 150px;
+}
+
+th.crm-group-name.sorting_asc ,
+th.crm-group-count.sorting_desc {
+  width: 150px;
+}
+
