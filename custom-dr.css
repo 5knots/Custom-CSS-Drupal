@@ -208,10 +208,6 @@ button#_qf_ContactName_cancel {
         margin-bottom: 10px;
 }
 
-.crm-container input.crm-form-text {
-        margin-left: 10px;
-}
-
 
 /*Custom code to turn background white, create box shadow and change font to black in "Actions" Button on contact summary page*/
 .crm-container .crm-tasks {
