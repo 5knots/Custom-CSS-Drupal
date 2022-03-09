@@ -241,3 +241,70 @@ li#tab_participant.crm-tab-button.ui-corner-all.livePage.ui-tabs-tab.ui-corner-t
         margin-right: -10px;
 } 
 
+/*fix the UI screen when registering a contact for a new event*/
+input#source.huge.huge.crm-form-text {
+	position: relative;
+	/*left: 0px;*/
+}
+
+form#Participant.CRM_Event_Form_Participant > div.crm-block.crm-form-block.crm-participant-form-block > div.view-content > table.form-layout-compressed > tbody > tr.crm-participant-form-block-source > td > span.description {
+	position: relative;
+	left: -345px;
+	bottom: -30px;
+}
+
+textarea#note.crm-form-textarea {
+	position: relative;
+	left: -18px;
+}
+
+fieldset#send_confirmation_receipt > table.form-layout > tbody > tr.crm-event-eventfees-form-block-send_receipt > td > span.description {
+	position: relative;
+	left: -16px;
+	bottom: -77px;
+}
+
+fieldset#send_confirmation_receipt > table.form-layout > tbody > tr#notice.crm-event-eventfees-form-block-receipt_text > td > textarea#receipt_text {
+	position: absolute;
+	left: 204px;
+	bottom: -10px;
+}
+
+fieldset#send_confirmation_receipt {
+	margin-bottom: 50px;
+}
+
+fieldset#send_confirmation_receipt > table.form-layout > tbody > tr#notice.crm-event-eventfees-form-block-receipt_text > td > span.description {
+ position: absolute;
+ bottom: -50px;
+ left: 204px;
+}
+
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_9_-1-row > td.html-adjust > label,
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_8_-1-row > td.html-adjust > label {
+	bottom: -22px;
+}
+
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_10_-1-row > td.html-adjust > label {
+	bottom: -12px;
+}
+
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_11_-1-row > td.html-adjust > label {
+	bottom: -5px;
+}
+
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_9_-1-row > td.html-adjust > a.crm-hover-button.crm-clear-link > i.crm-i.fa-times,
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_8_-1-row > td.html-adjust > a.crm-hover-button.crm-clear-link > i.crm-i.fa-times {
+	position: relative;
+	bottom: -18px;
+}
+
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_10_-1-row > td.html-adjust > a.crm-hover-button.crm-clear-link > i.crm-i.fa-times {
+	position: relative;
+	bottom: -9px;
+}
+
+table.form-layout-compressed > tbody > tr.custom_field-row.custom_11_-1-row > td.html-adjust > a.crm-hover-button.crm-clear-link > i.crm-i.fa-times {
+	position: relative;
+	bottom: -2px;
+}
