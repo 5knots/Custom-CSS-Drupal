@@ -309,3 +309,6 @@ table.form-layout-compressed > tbody > tr.custom_field-row.custom_11_-1-row > td
 	bottom: -2px;
 }
 
+.crm-form-block table.contact_information-section tr {
+border-bottom: none;
+}
