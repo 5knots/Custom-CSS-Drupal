@@ -297,7 +297,7 @@ table.form-layout-compressed > tbody > tr.custom_field-row.custom_9_-1-row > td.
 table.form-layout-compressed > tbody > tr.custom_field-row.custom_8_-1-row > td.html-adjust > a.crm-hover-button.crm-clear-link > i.crm-i.fa-times {
 	position: relative;
 	bottom: -18px;
-}
+.crm-container.ui-dialog .ui-dialog-header, .crm-container.ui-dialog .ui-dialog-titlebar}
 
 table.form-layout-compressed > tbody > tr.custom_field-row.custom_10_-1-row > td.html-adjust > a.crm-hover-button.crm-clear-link > i.crm-i.fa-times {
 	position: relative;
@@ -317,4 +317,12 @@ table.form-layout-compressed > tbody > tr.custom_field-row.custom_11_-1-row > td
 .page-civicrm-admin.page-civicrm-admin-contribute .crm-contribution-contributionpage-amount-form-block fieldset .description,
 .page-civicrm-a.page-civicrm-admin-contribute .crm-contribution-contributionpage-amount-form-block fieldset .description {
 	padding: 40px 0 25px 0 !important;
+}
+
+.crm-container.ui-dialog .ui-dialog-header, .crm-container.ui-dialog .ui-dialog-titlebar {
+	background: #e8eef0;
+}
+
+.crm-container.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+	color: black !important;
 }
