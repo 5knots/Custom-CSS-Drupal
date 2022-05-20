@@ -326,3 +326,8 @@ table.form-layout-compressed > tbody > tr.custom_field-row.custom_11_-1-row > td
 .crm-container.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
 	color: black !important;
 }
+
+/*Fix header covering SMTP config under civicrm/admin/setting/smtp?reset=1*/
+div.crm-smtp-mailer-form-block > div#bySMTP.mailoption > fieldset > table.form-layout-compressed > tbody > tr.crm-smtp-form-block-smtpServer > td {
+	padding-top: 35px;
+}
