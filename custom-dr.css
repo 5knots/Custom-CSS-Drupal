@@ -331,3 +331,21 @@ table.form-layout-compressed > tbody > tr.custom_field-row.custom_11_-1-row > td
 div.crm-smtp-mailer-form-block > div#bySMTP.mailoption > fieldset > table.form-layout-compressed > tbody > tr.crm-smtp-form-block-smtpServer > td {
 	padding-top: 35px;
 }
+
+/*Fix the hierarchical structuring in 'Manage Groups'*/
+page-civicrm-group #DataTables_Table_0 tbody tr td,
+.page-civicrm-group #DataTables_Table_0 tbody tr th {
+        padding: 10px 20px 10px 20px;
+}
+
+#crm-container .crm-group-parent td.crm-group-name {
+        text-indent: 0px;
+}
+
+#crm-container td span.show-children, #crm-container td span.crm-no-children {
+        padding-left: 0px;
+}
+
+.page-civicrm-group #DataTables_Table_0 .crm-no-children {
+	padding-left: 25px;
+}
