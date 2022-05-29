@@ -349,3 +349,8 @@ page-civicrm-group #DataTables_Table_0 tbody tr td,
 .page-civicrm-group #DataTables_Table_0 .crm-no-children {
 	padding-left: 25px;
 }
+
+/Fxing table margins in Date settings*/
+form#Date.CRM_Admin_Form_Setting_Date > div.crm-block.crm-form-block.crm-date-form-block > fieldset > table.form-layout-compressed {
+	margin: 35px 0.5em;
+}
