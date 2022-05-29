@@ -355,6 +355,6 @@ form#Date.CRM_Admin_Form_Setting_Date > div.crm-block.crm-form-block.crm-date-fo
 	margin: 35px 0.5em;
 }
 
-.page-civicrm-admin.page-civicrm-admin-setting-date .crm-form-block legend {
+form#Date.CRM_Admin_Form_Setting_Date > div.crm-block.crm-form-block.crm-date-form-block > fieldset > legend {
 	width: 97%;
 }
