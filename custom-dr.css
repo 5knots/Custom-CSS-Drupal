@@ -104,10 +104,10 @@ ul#ui-id-18.ui-menu.ui-widget.ui-widget-content .ui-state-active a:visited {
 
 /*End of Custom Search Bar Code*/
 
-/* search result table */
+/* search result table 
 
 .crm-container table > thead > tr > th {
-	text-transform: none;
+	text-transform: none; */
 
 /*Custom code to give Info Blocks box shadows*/
 .crm-summary-block {
