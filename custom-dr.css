@@ -203,11 +203,6 @@ div#contactname-block.crm-summary-block {
         padding-bottom: 5px;
 }
 
-button#_qf_ContactName_upload,
-button#_qf_ContactName_cancel {
-        margin-top: 22px;
-}
-
 .crm-container #actions a.button {
         margin-top: 30px;
         margin-bottom: 10px;
