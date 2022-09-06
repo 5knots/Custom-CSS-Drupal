@@ -47,7 +47,7 @@ div.update-nag.notice.notice-warning.inline {
 #crm-container div.crm-summary-contactname-block {
     margin-top: 10px !important;
   }
-  
+
 #crm-container div.crm-summary-row div.crm-label {
 	color: #464354;
 }
@@ -95,7 +95,7 @@ div.ui-menu-item-uiMenuItemWrapper > a:hover {
 }
 
 /*Fixes the text turning white if using arrow keys*/
-ul#ui-id-18.ui-menu.ui-widget.ui-widget-content .ui-state-active a,   
+ul#ui-id-18.ui-menu.ui-widget.ui-widget-content .ui-state-active a,
 ul#ui-id-18.ui-menu.ui-widget.ui-widget-content .ui-state-active a:link,
 ul#ui-id-18.ui-menu.ui-widget.ui-widget-content .ui-state-active a:visited {
         color: #212121;
@@ -104,7 +104,7 @@ ul#ui-id-18.ui-menu.ui-widget.ui-widget-content .ui-state-active a:visited {
 
 /*End of Custom Search Bar Code*/
 
-/* search result table 
+/* search result table
 
 .crm-container table > thead > tr > th {
 	text-transform: none; */
@@ -249,7 +249,7 @@ li#tab_summary.crm-tab-button.ui-corner-all.ui-tabs-tab.ui-corner-top.ui-state-d
 
 li#tab_participant.crm-tab-button.ui-corner-all.livePage.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.crm-count-0.ui-tabs-active.ui-state-active {
         margin-right: -10px;
-} 
+}
 
 /*fix the UI screen when registering a contact for a new event*/
 input#source.huge.huge.crm-form-text {
@@ -359,6 +359,16 @@ page-civicrm-group #DataTables_Table_0 tbody tr td,
 .page-civicrm-group #DataTables_Table_0 .crm-no-children {
 	padding-left: 25px;
 }
+
+/* changes the button margin to be symmetrical */
+.page-civicrm-contact #crm-container .crm-actions-ribbon #actions a.button{
+        margin-top: 10px;
+}
+
+/* hides the layout button */
+.page-civicrm-contact #crm-container .crm-actions-ribbon .crm-contact-summary-edit-layout{
+        display: none;
+
 
 /*Fixing table margins in Date settings*/
 form#Date.CRM_Admin_Form_Setting_Date > div.crm-block.crm-form-block.crm-date-form-block > fieldset > table.form-layout-compressed {
