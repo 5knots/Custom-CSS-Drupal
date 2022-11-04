@@ -1,0 +1,84 @@
+/**
+ * Custom CSS
+ * Use this file to override styles if you feel uncomfortable editing
+ * component stylesheets.
+ ============================================================================ */
+
+/*Added for Debugging */
+/*
+div{
+  border: 1px solid red;
+}
+*/
+
+/* CSS File created by chloe to fix problems with the formating of the header and footer that have been added from a wordpress installation to an adaptive theme */
+
+/* Edit lbl: Die Klassen sind zu allgemeingültig adressiert aus meiner Sicht.
+Ein Wert wie "h5.widget-title" birgt die Gefahr, auch an anderen Stellen zu greifen, dann allerdings ungewollt.
+Die Klassen z.B. des Footers sollten alle mit #footer adressierbar sein, also dann "#footer h5.widget-title". */
+/* Dieser Kommentar kann gelöscht werden nach Lesen & Verarbeiten */
+
+body{
+  font-size: 0.9375em;
+  color: #333;
+}
+
+/* css rules for the header */
+header.tpnav-header__header{
+  background: #fff;
+}
+
+header.tc-header.border-top{
+  border-top: 5px solid #ffac00;
+  border-bottom: 0px none;
+}
+
+span.nav__title{
+ font-size: 0.95em;
+ color: #313131;
+}
+
+span.nav__title:hover{
+  color: #777777;
+}
+
+/* css rules for the footer */
+div#footer-widget-area.widget__wrapper{
+  background-color: #ffac00;
+}
+
+h5.widget-title{
+  color: #ffffff;
+}
+
+ul.menu a{
+  color: #777;
+}
+
+ul.menu a:hover{
+  color: #ffffff;
+}
+
+ul.menu a:visited{
+  color: #777;
+}
+
+div#colophon.colophon{
+  background: #242424;
+}
+
+a .nav__link{
+  color: #313131;
+}
+
+.nav__menu{
+  font-weight: 600;
+}
+
+div#footer__credits.footer__credits a{
+  color: #777;
+}
+
+div#footer__credits.footer__credits a:hover{
+  color: #fff;
+}
