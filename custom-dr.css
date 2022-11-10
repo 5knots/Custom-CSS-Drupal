@@ -182,8 +182,12 @@ div#contactname-block.crm-summary-block {
          background: #fff;
 }
 
-#crm-container table.from-layout input.huge{
+div#crm-container.crm-container table.from-layout input.huge{
 	width: 455px;
+}
+
+div#crm-container.crm-container table.form-layout-compressed textarea#note.crm-form-textarea{
+  left: 0;
 }
 
 #crm-container #Component .crm-mailing-component-form-block fieldset{
