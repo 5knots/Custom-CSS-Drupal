@@ -182,6 +182,14 @@ div#contactname-block.crm-summary-block {
          background: #fff;
 }
 
+div#crm-container.crm-container table.from-layout input.huge{
+	width: 455px;
+}
+
+div#crm-container.crm-container table.form-layout-compressed textarea#note.crm-form-textarea{
+  left: 0;
+}
+
 #crm-container #Component .crm-mailing-component-form-block fieldset{
         padding: 30px 0px;
 }
@@ -192,6 +200,9 @@ div#contactname-block.crm-summary-block {
         top: 0px;
 }
 
+div#crm-main-content-wrapper div.crm-date-form-block fieldset:not(.fieldgroup) > legend{
+  position: relative !important;
+}
 
 /*Conctact Form Tab Bar white*/
 .crm-container .CRM_Contact_Form_Search_Basic .crm-results-block .crm-search-results {
