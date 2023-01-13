@@ -334,6 +334,30 @@ table.form-layout-compressed > tbody > tr.custom_field-row.custom_11_-1-row > td
 	margin-top: 25px;
 }
 
+/* Added to fix Issue #29 on Github */
+/* Overrides the display property to fix issues with the textflow */
+body.page-civicrm-event-manage table.form-layout-compressed tr.crm-event-manage-registration-form-block-custom_pre_id label,
+body.page-civicrm-event-manage table.form-layout-compressed tr.crm-event-manage-registration-form-block-custom_post_id label,
+body.page-civicrm-event-manage table.form-layout-compressed tr.crm-event-manage-registration-form-block-custom_post_multiple label,
+body.page-civicrm-event-manage table.form-layout-compressed tr.crm-event-manage-registration-form-block-is_email_confirm label:not(input + label),
+body.page-civicrm-event-manage table.form-layout-compressed tr.crm-event-manage-registration-form-block-confirm_from_email label{
+        display: inline flow-root;
+        min-width: 100px;
+        border: 1px solid red;
+        text-align: left;
+}
+
+/* Adds a obligatory star after the label to fix the position */
+body.page-civicrm-event-manage table.form-layout-compressed tr.crm-event-manage-registration-form-block-confirm_from_email label:after{
+        content: " *";
+        color: #cf3458;
+}
+
+/* Hides the original obligatory star */
+body.page-civicrm-event-manage table.form-layout-compressed tr.crm-event-manage-registration-form-block-confirm_from_email label + span.crm-marker{
+        display: none;
+}
+
 /*Configure page-Manage Contribution Site-Amounts  fix the overlapping header*/
 .page-civicrm-admin.page-civicrm-admin-contribute .crm-contribution-contributionpage-amount-form-block fieldset .description,
 .page-civicrm-a.page-civicrm-admin-contribute .crm-contribution-contributionpage-amount-form-block fieldset .description {
